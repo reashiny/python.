@@ -14,11 +14,11 @@ def main():
 if __name__ == '__main__':
     main()
 a=raw_input("enter an alphabet")
-if a in ('a','e','i','o','u'):
+if (a=='a'or a=='e' or a=='i'or a=='o' or a=='u'):
     print ("%s is a vowel."%a)
 else:
     print (a,"is an consonant")
-if a in ('A','E','I','O','U'):
+if  (a=='A'or a=='E' or a=='I' or a=='O' or a=='U'):
     print (a,"is an vowel")
 else:
     print (a,"is an consonant")
